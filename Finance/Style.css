@@ -1,0 +1,421 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#navf{
+    position: fixed;
+    width: 100vw;
+    height: 8vh;
+    background-color: #A20A3A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(255, 255, 0, 0.644);
+}
+.fnf{
+    display: flex;
+}
+.fnf i{
+    margin-top: 3vh;
+    margin-left: 2vh;
+    font-size: 4vh;
+}
+.fns ul{
+    display: flex;
+    margin-top: 2vh;
+    list-style: none;
+}
+.fns ul li a{
+    text-decoration: none;
+}
+.fns ul li{
+    margin-left: 2vw;
+}
+.fns ul li button{
+    border-radius: 5px;
+    border:  2px solid rgba(255, 255, 0, 0.616);
+}
+.fnt{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.fnt input{
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 0, 0.616);
+}
+.fnt img{
+    margin-left: 2vw;
+    height: 7vh;
+    width: 10vw;
+    margin-right: 1vw;
+}
+
+
+#navs{
+    position: relative;
+    width: 100vw;
+    height: 10vh;
+    background-color: #FDBD30;
+}
+#navs ul{
+    display: flex;
+    justify-content: space-around;
+}
+#navs ul li{
+    cursor: pointer;
+    font: bold;
+    margin-top: 3vh;
+    list-style: none;
+    color: #A20A3A;
+}
+#navs ul li a{
+    text-decoration: none;
+    font: bold;
+}
+#navs ul li select{
+    cursor: pointer;
+    background-color: #FDBD30;
+    font: bold;
+    color: #A20A3A;
+    border-radius: 5px;
+}
+#navs ul li select:hover{
+    background-color: whitesmoke;
+}
+#hf{
+    width: 100vw;
+    height: 76vh;
+    background-image: url("https://imgeng.jagran.com/images/2023/jul/pnb-metaverse-branch1688744233534.jpg");
+}
+
+#hf{
+    display: flex;
+    justify-content: space-between;
+}
+.hff ul li{
+    color: #FDBD30;
+    list-style: none;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+.hfs ul{
+    list-style: none;
+    margin-right: 5vw;
+}
+.hfs ul li{
+    color:#A20A3A;
+    background-color: #FDBD30;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 6vh;
+}
+.hfs ul li i{
+    background-color: #A20A3A;
+    color:#FDBD30;
+    font-size: 2vw;
+}
+#hhf{
+    background-color: rgba(20, 2, 2, 0.308);
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hhf{
+    width: 30vw;
+    margin-top: 3vh;
+    height: 90%;
+    border-radius: 10px;
+    background-color: #A20A3A;
+}
+.hhs{
+    width: 46vw;
+    margin-top: 3vh;
+    height: 90%;
+    border-radius: 10px;
+    background-color: #FDBD30;
+}
+
+ul{
+    list-style: none;
+}
+.hhs{
+    display: flex;
+}
+.hhsf{
+    margin-top: 4vh;
+    width: 30vw;
+    height: 85%;
+}
+.hhss{
+    margin-top: 4vh;
+    height: 85%;
+    width: 15vw;
+}
+.hhsf ul{
+    width: 30vw;
+    margin-top: 4vh;
+    margin-right: 2vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1vh;
+}
+.hhsf ul li{
+    margin-top: 2vw;
+    margin-right: 1vw;
+}
+input{
+    border-radius: 10px;
+}
+.hhsf ul li select option{
+    border-radius: 5%;   
+}
+select option{
+    border-radius: 10%;
+}
+.hhsf h2{
+    color: #A20A3A;
+}
+.hhsf ul li button{
+    background-color: #A20A3A;
+    border-radius: 10px;
+}
+#hhhf{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(26, 3, 3, 0.411);
+}
+#hhhf h1{
+    text-align: center;
+}
+.hbb{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hbb i{
+    color: #A20A3A;
+}
+.hbb h2{
+    color: #A20A3A;
+}
+#hhhf h1{
+    color: #A20A3A;
+}
+
+.hb{
+    height: 60vh;
+    width: 20vw;
+    margin-left: 3vw;
+    box-shadow: rgba(32, 2, 2, 0.795);
+}
+.hb img{
+    z-index:initial;
+}
+
+
+#hhhhf{
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #A20A3A;
+}
+.hhhhs{
+    width: 70vw;
+    height: 71vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fhs{
+    margin-top: 8vh;
+    margin-left: 5vw;
+}
+.fhs button{
+    border-radius: 8px;
+   background-color: #FDBD30;
+    font-size: 2vw;
+
+}
+.hhhht{
+    width: 28vw;
+    height: 71vh;
+}
+.hhhhs h2{
+    color: #FDBD30;
+}
+.hhhht img{
+    width: 20vw;
+}
+#ftr{
+    width: 100vw;
+    height: 55vh;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+#ftr{
+    background-color: rgba(27, 2, 2, 0.24);
+    display: flex;
+    justify-content: space-around;
+}
+.fff{
+    margin-top: 5vh;
+}
+.fff ul li{
+    margin-top: 3vh;
+    font: bold;
+    font-size: 3vh;
+}
+.fff h2{
+    color: #A20A3A;
+}
+.hhhht img{
+    z-index: auto;
+}
+#fd{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #A20A3A;
+}
+.df {
+    margin-top: 4vh;
+}
+.df ul li{
+    margin-top: 2vh;
+    cursor: pointer;
+}
+.df ul li i{
+    color: #FDBD30;
+    font-size: 4vh;
+}
+.df ul li span{
+    color: #FDBD30;
+}
+.df ul{
+    color: #FDBD30;
+    font-size: 3vh;
+    cursor: pointer;
+}
+#hf .hff button{
+    margin: 4vh;
+    background-color: #4e0c21f8;
+    color: #FDBD30;
+    border-radius: 5%;
+}
+.mbul{
+    display: none;
+}
+.lmf{
+    display: flex;
+    justify-content: space-between;
+}
+.hmp{
+    height: 9vh;
+}
+.lmf li i{
+    height: 1vh;
+}
+.lmf li span{
+    width: 1vh;
+}
+.fsb{
+    height: 6vh;
+}
+.fsbl{
+    height: 2vh;
+}
+.fsbb{
+    display: flex;
+}
+.hff{
+    width: 20vw;
+}
+#hfss{
+    padding-top: 5vh;
+    width: 40vw;
+    color: #FDBD30;
+    font: bold;
+    font-size: 3vh;
+}
+.hfs{
+    width: 20vw;
+}
+.mff{
+    display: none;
+}
+.mfs{
+    display: none;
+}
+.mft{
+    display: none;
+}
+.mfff{
+    display: none;
+}
+.mffff{
+    display: none;
+}
+.mfss{
+    display: none;
+}
+.hhf{
+    opacity: 0.3;
+    cursor: pointer;
+}
+.hhf:hover{
+    opacity: 0.9;
+}
+#hhhf:hover{
+    background-color: #FDBD30;
+    opacity: 1;
+}
+#hhhf{
+    opacity: 0.7;
+}
+
+#hhhhf{
+    background-color: rgba(0, 0, 0, 0.877);
+    background-image: url("https://images.unsplash.com/photo-1593640495481-2fa682ab2297?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80");
+}
+
+
+
+
+
+@media (max-width:600px){
+    #hf{
+        height: 95vh;
+    }
+    #hhf{
+        height: 120vh;
+    }
+    .hhf{
+        width: 70vw;
+        height: 55vh;
+    }
+    .hhs{
+        width: 70vw;
+        height: 55vh;
+    }
+    #hhhf{
+        height: 150vh;
+    }
+    .hb{
+        width: 40vw;
+    }
+    #ftr{
+        height: 115vh;
+    }
+    .fff{
+        width: 40vw;
+    }
+}
